@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bayo338.github.io/React_Projects/movie-land",
   "name": "react-ject",
   "version": "0.1.0",
   "private": true,
@@ -11,11 +12,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,7 +36,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://bayo338.github.io/React_Projects/movie-land",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
